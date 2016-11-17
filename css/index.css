@@ -1,0 +1,19 @@
+section>h1{ background: #1d75bf; width: 32rem; height: 3.25rem; }
+section h1 p{ display: inline-block;  width: 24rem;line-height: 3.25rem; text-indent: 1em; color: #fff; font-size: 1.5rem;}
+section h1 a{ display: inline-block; line-height: 2.25rem; width: 6.5rem;height: 2.25rem; text-align: center;background: #fff152; color: #333333; font-size: 1.2rem; border-radius: 0.4rem; margin-left: 0.3rem;}
+/*爱德华专业医师团队*/
+section.ystd{ position: relative; width: 32rem; height: 23rem; overflow: hidden; }
+section.ystd .yslb{ width: 30rem; height: auto; margin: 1rem 0 1rem 1rem; }
+section.ystd .yslb figure{}
+section.ystd .yslb figure img{ width: 10.7rem;height: 13.25rem; display: inline-block; }
+section.ystd .yslb figure figcaption{ display: inline-block; width: 18rem; height: auto; vertical-align: top;margin: 0 0 0 1rem; }
+section.ystd .yslb figure figcaption h2{   color: #1d75bf; font-size: 1.2rem;border-bottom: 1px #959595 dashed; padding-bottom: 0.8rem; margin-bottom: 0.8rem;}
+section.ystd .yslb figure figcaption h2 b{font-size: 1.6rem; color: #000; padding-right: 0.3rem;}
+section.ystd .yslb figure figcaption article { line-height: 1.6rem; font-size: 1.1rem; }
+section.ystd .yslb figure figcaption article i{ color: #ff0000; }
+section.ystd .yslb figure figcaption h3{ width: 18.0rem;height: 2.0rem; margin: 0.5rem auto; line-height: 2.0rem; text-align: center; border: 1px dashed #959595; }
+section.ystd .yslb .zxyytel{ width: 28.50rem; height: auto; overflow: hidden; margin:1rem auto; }
+section.ystd .yslb .zxyytel a{ display: inline-block; width: 8.75rem;height: 3.0rem;  color: #fff; border-radius: 0.2rem; text-align: center; line-height: 3.0rem; font-size: 1.2rem;}
+section.ystd .yslb .zxyytel a:nth-child(1){ background: #f88802; }
+section.ystd .yslb .zxyytel a:nth-child(2){ background: #2388dc; }
+section.ystd .yslb .zxyytel a:nth-child(3){ color: #f88802; border: 1px solid #f88802;  width: 10.2rem;}

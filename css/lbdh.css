@@ -1,0 +1,105 @@
+/*控制css轮播*/
+.banner{ width: 32rem;height: 16rem; overflow: hidden;}
+.banner ul{
+    display: block;
+    position:relative;
+    width: 300%;
+    height: 16.0rem; 
+    margin: 0 auto; 
+    animation-name:bannerlb;
+    animation-duration: 21s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,0,0.1,1);
+}
+@keyframes bannerlb{
+            0%{
+                left: 0%;
+            }
+            10%{
+                left: 0%;
+            }
+            20%{
+                left: -100%;
+            }
+            30%{
+                left: -100%;
+            }
+            40%{
+                left: -200%;
+            }
+            50%{
+                left: -200%;
+            }
+            60%{
+                left: -100%;
+            }
+            70%{
+                left: -100%;
+            }
+            80%{
+                left: -100%;
+            }
+            90%{
+                left: 0%;
+            }           
+            100%{
+                left: 0%;
+            }   
+
+}
+.banner ul li{
+    width: 33%;
+    display:block;
+    float: left;
+    margin-left: 0.3%;
+ }
+
+/*此css为专家轮播动画的css*/
+.zjdhlb{ 
+	position:relative;
+	width: 200%;
+	height: 100%; 
+	margin: 0 auto; 
+	animation-name:zjdhlb;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,0,0.1,1);
+ }
+ /*定义动画属性*/
+ @keyframes zjdhlb{
+            0%{
+                left: 0%;
+            }
+            10%{
+                left: -98%;
+            }
+            20%{
+                left: -98%;
+            }
+            30%{
+                left: -98%;
+            }
+            40%{
+                left: 0%;
+            }
+            50%{
+                left: 0%;
+            }
+            60%{
+                left: -98%;
+            }
+            70%{
+                left: -98%;
+            }
+            80%{
+                left: -98%;
+            }
+            90%{
+                left: 0%;
+            }           
+            100%{
+                left: 0%;
+            }	
+ }
+ 
+.zjdhlb .yslb{ float: left; width: 50%;  }
